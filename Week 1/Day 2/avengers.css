@@ -1,0 +1,74 @@
+body {
+    height: 100vh;
+    color: whitesmoke;
+    font-family: sans-serif;
+} 
+
+img {
+    height: 100%;
+}
+.logo-link {
+    height: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 10vh;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+h1 {
+    color: red;
+    font-family: fantasy;
+    font-size: 4rem;
+}
+
+p {
+    font-family: monospace;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    text-shadow: 1.5px 1px red;
+    font-weight: bold;
+
+}
+
+li {
+    padding: 10px;
+}
+div {
+    align-items: center;
+    text-align: center;
+    width: 60vw;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+main {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url('https://cdn.mos.cms.futurecdn.net/vVjmXudKxKfpGYp4A9RPPn-1200-80.jpg.webp');
+    height: 90vh;
+    width: 100%;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6vh;
+    text-align: center;
+    background-color: black;
+}
+
+.link {
+    padding: 10px;
+}
